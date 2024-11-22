@@ -147,6 +147,7 @@
         "🇸🇬 新加坡",
         "其他地区",
         "自建",
+        "0.1倍率",
         "🇨🇳 直连"
       ],
       "default": "手动选择"
@@ -430,6 +431,19 @@
       "filter": [
         {"action": "include", "keywords": ["🇭🇰|HK|hk|🇭🇰 香港|港|HongKong"]},
         {"action": "exclude", "keywords": ["自建"]}
+      ]
+    },
+    {
+      "tag": "0.1倍率",
+      "type": "urltest",
+      "outbounds": [
+        "{all}"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50,
+      "filter": [
+        {"action": "include", "keywords": ["0.1×"]}
       ]
     },
     {
