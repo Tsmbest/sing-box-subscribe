@@ -457,7 +457,7 @@
       "interval": "3m",
       "tolerance": 50,
       "filter": [
-        {"action": "include", "keywords": ["Claw"]}
+        {"action": "include", "keywords": ["Claw_自建_香港"]}
       ]
     },
     {
@@ -470,7 +470,7 @@
       "interval": "3m",
       "tolerance": 50,
       "filter": [
-        {"action": "include", "keywords": ["wap"]}
+        {"action": "include", "keywords": ["wap_自建_台湾"]}
       ]
     },
     {
