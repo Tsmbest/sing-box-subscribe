@@ -89,7 +89,7 @@
       "strict_route": true,
       "sniff": true,
       "route_exclude_address": [
-        "8.219.0.23/32"
+        "8.219.0.26/32"
       ],
       "route_exclude_address_set": [
         "geoip-cn"
@@ -580,7 +580,7 @@
     "final": "🚀 节点选择",
     "rules": [
       {"source_ip_cidr": [
-        "8.219.0.23/32"
+        "8.219.0.26/32"
       ],
        "outbound": "dns-out"
       },
