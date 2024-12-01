@@ -88,6 +88,9 @@
       "auto_redirect":true,
       "strict_route": true,
       "sniff": true,
+      "route_exclude_address": [
+        "8.219.0.23/32"
+      ],
       "route_exclude_address_set": [
         "geoip-cn"
       ],
@@ -576,6 +579,11 @@
     "auto_detect_interface": true,
     "final": "🚀 节点选择",
     "rules": [
+      {"source_ip_cidr": [
+        "8.219.0.23/32"
+      ],
+       "outbound": "dns-out"
+      },
       {
         "inbound": "dns-in",
         "outbound": "dns-out"
