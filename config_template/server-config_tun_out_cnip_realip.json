@@ -149,7 +149,6 @@
         "🇨🇳 🇭🇰 台湾",
         "🇸🇬 新加坡",
         "其他地区",
-        "自建台湾",
         "自建香港",
         "0.1倍率",
         "🇨🇳 直连"
@@ -461,19 +460,6 @@
       "tolerance": 50,
       "filter": [
         {"action": "include", "keywords": ["Claw_自建_香港"]}
-      ]
-    },
-    {
-      "tag": "自建台湾",
-      "type": "urltest",
-      "outbounds": [
-        "{all}"
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "3m",
-      "tolerance": 50,
-      "filter": [
-        {"action": "include", "keywords": ["wap_自建_台湾"]}
       ]
     },
     {
