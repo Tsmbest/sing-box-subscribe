@@ -35,7 +35,7 @@
         "address_resolver": "local",
         "address_strategy": "ipv4_only",
         "strategy": "ipv4_only",
-        "client_subnet": "61.132.163.68/24"
+        "client_subnet": "223.247.108.251/24"
       }
     ],
     "rules": [
